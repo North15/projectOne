@@ -15,5 +15,5 @@ When I was learning WhiteSpace in a Programming Languages class, I decided to ma
  - Nothing new planned at this time
  
  # projectFiles
- The-Program folder has the .exe that you can download.                                           
-    The-Code folder has all the code for Visual Studio.
+ The-Program folder contains the .exe for download.                                           
+    The-Code folder contains all the code for Visual Studio.
