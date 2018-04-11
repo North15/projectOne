@@ -13,3 +13,7 @@ I hope that people find this useful and if you want, please feel free to play ar
  
  # Things I am planning on adding:
  - Ability to convert back and forth between the code and letters
+ 
+ # The file system
+ The-Program  folder has the .exe that you can download to use the program
+ The-Code     folder has all the code files for Visual Studio
