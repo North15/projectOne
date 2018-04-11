@@ -1,4 +1,5 @@
-# projectOne
+(Updated: 4/11/2018) 
+# projectOne 
 WhiteSpace Interpreter written in Visual C#
 
 # Purpose of this project:
@@ -10,9 +11,10 @@ I hope that people find this useful and if you want, please feel free to play ar
 # Features:
  - Import files into the application for conversion
  - You can save the converted text into a .txt file
+ - You can convert between WhiteSpace and Letters by clicking the convert button
  
  # Things I am planning on adding:
- - Ability to convert back and forth between the code and letters
+ - Nothing new planned at this time
  
  # The file system
  The-Program folder has the .exe that you can download.                                           
