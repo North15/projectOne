@@ -8,8 +8,8 @@ When I was learning WhiteSpace in a Programming Languages class, I decided to ma
 
 # projectFeatures:
  - Import files into the application for conversion
- - You can save the converted text into a .txt file
- - You can convert between WhiteSpace and Letters by clicking the convert button
+ - Save the converted text into a .txt file
+ - Convert between WhiteSpace and Letters by clicking the convert button
  
  # projectPlans:
  - Nothing new planned at this time
