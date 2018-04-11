@@ -2,20 +2,18 @@
 # projectOne 
 WhiteSpace Interpreter written in Visual C#
 
-# Purpose of this project:
+# projectPurpose:
 
-I wrote this application for my Programming Languages class. The teacher had us 
-learn Whitespace and I wanted an interperter to convert my Whitespace programs into readable letters.
-I hope that people find this useful and if you want, please feel free to play around with the code.
+When I was learning WhiteSpace in a Programming Languages class, I decided to make this application on the side. I found it helpful to convert my WhiteSpace into readable letters, and I hope you will too. Feel free to check out the code or submit a pull request.
 
-# Features:
+# projectFeatures:
  - Import files into the application for conversion
  - You can save the converted text into a .txt file
  - You can convert between WhiteSpace and Letters by clicking the convert button
  
- # Things I am planning on adding:
+ # projectPlans:
  - Nothing new planned at this time
  
- # The file system
+ # projectFiles
  The-Program folder has the .exe that you can download.                                           
     The-Code folder has all the code for Visual Studio.
