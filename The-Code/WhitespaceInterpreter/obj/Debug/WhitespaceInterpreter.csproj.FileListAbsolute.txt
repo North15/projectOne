@@ -1,0 +1,10 @@
+c:\users\15north97\documents\visual studio 2017\Projects\WhitespaceInterpreter\WhitespaceInterpreter\bin\Debug\WhitespaceInterpreter.exe.config
+c:\users\15north97\documents\visual studio 2017\Projects\WhitespaceInterpreter\WhitespaceInterpreter\bin\Debug\WhitespaceInterpreter.exe
+c:\users\15north97\documents\visual studio 2017\Projects\WhitespaceInterpreter\WhitespaceInterpreter\bin\Debug\WhitespaceInterpreter.pdb
+c:\users\15north97\documents\visual studio 2017\Projects\WhitespaceInterpreter\WhitespaceInterpreter\obj\Debug\WhitespaceInterpreter.csprojResolveAssemblyReference.cache
+c:\users\15north97\documents\visual studio 2017\Projects\WhitespaceInterpreter\WhitespaceInterpreter\obj\Debug\WhitespaceInterpreter.Form1.resources
+c:\users\15north97\documents\visual studio 2017\Projects\WhitespaceInterpreter\WhitespaceInterpreter\obj\Debug\WhitespaceInterpreter.Properties.Resources.resources
+c:\users\15north97\documents\visual studio 2017\Projects\WhitespaceInterpreter\WhitespaceInterpreter\obj\Debug\WhitespaceInterpreter.csproj.GenerateResource.Cache
+c:\users\15north97\documents\visual studio 2017\Projects\WhitespaceInterpreter\WhitespaceInterpreter\obj\Debug\WhitespaceInterpreter.exe
+c:\users\15north97\documents\visual studio 2017\Projects\WhitespaceInterpreter\WhitespaceInterpreter\obj\Debug\WhitespaceInterpreter.pdb
+C:\Users\15north97\documents\visual studio 2017\Projects\WhitespaceInterpreter\WhitespaceInterpreter\obj\Debug\WhitespaceInterpreter.csproj.CoreCompileInputs.cache
