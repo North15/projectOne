@@ -38,22 +38,24 @@
             this.saveButton = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.label1 = new System.Windows.Forms.Label();
+            this.helpButton = new System.Windows.Forms.Button();
+            this.exitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // filePath
             // 
-            this.filePath.Location = new System.Drawing.Point(9, 27);
-            this.filePath.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.filePath.Location = new System.Drawing.Point(12, 33);
+            this.filePath.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.filePath.Name = "filePath";
-            this.filePath.Size = new System.Drawing.Size(334, 20);
+            this.filePath.Size = new System.Drawing.Size(444, 22);
             this.filePath.TabIndex = 0;
             // 
             // browseButton
             // 
-            this.browseButton.Location = new System.Drawing.Point(346, 26);
-            this.browseButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.browseButton.Location = new System.Drawing.Point(461, 32);
+            this.browseButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.browseButton.Name = "browseButton";
-            this.browseButton.Size = new System.Drawing.Size(32, 19);
+            this.browseButton.Size = new System.Drawing.Size(43, 23);
             this.browseButton.TabIndex = 1;
             this.browseButton.Text = "...";
             this.browseButton.UseVisualStyleBackColor = true;
@@ -62,19 +64,19 @@
             // mainText
             // 
             this.mainText.AcceptsTab = true;
-            this.mainText.Location = new System.Drawing.Point(9, 58);
-            this.mainText.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mainText.Location = new System.Drawing.Point(12, 71);
+            this.mainText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.mainText.Name = "mainText";
-            this.mainText.Size = new System.Drawing.Size(250, 357);
+            this.mainText.Size = new System.Drawing.Size(332, 438);
             this.mainText.TabIndex = 2;
             this.mainText.Text = "";
             // 
             // convertButton
             // 
-            this.convertButton.Location = new System.Drawing.Point(272, 58);
-            this.convertButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.convertButton.Location = new System.Drawing.Point(363, 71);
+            this.convertButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.convertButton.Name = "convertButton";
-            this.convertButton.Size = new System.Drawing.Size(96, 19);
+            this.convertButton.Size = new System.Drawing.Size(128, 23);
             this.convertButton.TabIndex = 3;
             this.convertButton.Text = "Convert";
             this.convertButton.UseVisualStyleBackColor = true;
@@ -82,10 +84,10 @@
             // 
             // clearAllButton
             // 
-            this.clearAllButton.Location = new System.Drawing.Point(272, 122);
-            this.clearAllButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.clearAllButton.Location = new System.Drawing.Point(363, 150);
+            this.clearAllButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.clearAllButton.Name = "clearAllButton";
-            this.clearAllButton.Size = new System.Drawing.Size(96, 19);
+            this.clearAllButton.Size = new System.Drawing.Size(128, 23);
             this.clearAllButton.TabIndex = 4;
             this.clearAllButton.Text = "Clear All";
             this.clearAllButton.UseVisualStyleBackColor = true;
@@ -93,10 +95,10 @@
             // 
             // saveButton
             // 
-            this.saveButton.Location = new System.Drawing.Point(272, 90);
-            this.saveButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.saveButton.Location = new System.Drawing.Point(363, 111);
+            this.saveButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.saveButton.Name = "saveButton";
-            this.saveButton.Size = new System.Drawing.Size(96, 19);
+            this.saveButton.Size = new System.Drawing.Size(128, 23);
             this.saveButton.TabIndex = 5;
             this.saveButton.Text = "Save";
             this.saveButton.UseVisualStyleBackColor = true;
@@ -109,18 +111,39 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 8);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(13, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 13);
+            this.label1.Size = new System.Drawing.Size(69, 17);
             this.label1.TabIndex = 6;
             this.label1.Text = "Filename:";
             // 
+            // helpButton
+            // 
+            this.helpButton.Location = new System.Drawing.Point(363, 457);
+            this.helpButton.Name = "helpButton";
+            this.helpButton.Size = new System.Drawing.Size(128, 23);
+            this.helpButton.TabIndex = 7;
+            this.helpButton.Text = "Help";
+            this.helpButton.UseVisualStyleBackColor = true;
+            this.helpButton.Click += new System.EventHandler(this.helpButton_Click);
+            // 
+            // exitButton
+            // 
+            this.exitButton.Location = new System.Drawing.Point(363, 486);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(128, 23);
+            this.exitButton.TabIndex = 8;
+            this.exitButton.Text = "Exit";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(388, 429);
+            this.ClientSize = new System.Drawing.Size(517, 528);
+            this.Controls.Add(this.exitButton);
+            this.Controls.Add(this.helpButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.saveButton);
             this.Controls.Add(this.clearAllButton);
@@ -129,7 +152,7 @@
             this.Controls.Add(this.browseButton);
             this.Controls.Add(this.filePath);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Whitespace Interpreter";
             this.ResumeLayout(false);
@@ -148,6 +171,8 @@
         private System.Windows.Forms.Button saveButton;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button helpButton;
+        private System.Windows.Forms.Button exitButton;
     }
 }
 

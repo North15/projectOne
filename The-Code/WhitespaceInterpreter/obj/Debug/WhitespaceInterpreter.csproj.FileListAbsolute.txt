@@ -17,3 +17,13 @@ C:\Users\128320\Desktop\WSin\projectOne\The-Code\WhitespaceInterpreter\obj\Debug
 C:\Users\128320\Desktop\WSin\projectOne\The-Code\WhitespaceInterpreter\bin\Debug\WhitespaceInterpreter.exe.config
 C:\Users\128320\Desktop\WSin\projectOne\The-Code\WhitespaceInterpreter\bin\Debug\WhitespaceInterpreter.exe
 C:\Users\128320\Desktop\WSin\projectOne\The-Code\WhitespaceInterpreter\bin\Debug\WhitespaceInterpreter.pdb
+C:\Users\15north97\Desktop\gitProjects\projectOne\The-Code\WhitespaceInterpreter\bin\Debug\WhitespaceInterpreter.exe.config
+C:\Users\15north97\Desktop\gitProjects\projectOne\The-Code\WhitespaceInterpreter\bin\Debug\WhitespaceInterpreter.exe
+C:\Users\15north97\Desktop\gitProjects\projectOne\The-Code\WhitespaceInterpreter\bin\Debug\WhitespaceInterpreter.pdb
+C:\Users\15north97\Desktop\gitProjects\projectOne\The-Code\WhitespaceInterpreter\obj\Debug\WhitespaceInterpreter.csprojResolveAssemblyReference.cache
+C:\Users\15north97\Desktop\gitProjects\projectOne\The-Code\WhitespaceInterpreter\obj\Debug\WhitespaceInterpreter.Form1.resources
+C:\Users\15north97\Desktop\gitProjects\projectOne\The-Code\WhitespaceInterpreter\obj\Debug\WhitespaceInterpreter.Properties.Resources.resources
+C:\Users\15north97\Desktop\gitProjects\projectOne\The-Code\WhitespaceInterpreter\obj\Debug\WhitespaceInterpreter.csproj.GenerateResource.cache
+C:\Users\15north97\Desktop\gitProjects\projectOne\The-Code\WhitespaceInterpreter\obj\Debug\WhitespaceInterpreter.csproj.CoreCompileInputs.cache
+C:\Users\15north97\Desktop\gitProjects\projectOne\The-Code\WhitespaceInterpreter\obj\Debug\WhitespaceInterpreter.exe
+C:\Users\15north97\Desktop\gitProjects\projectOne\The-Code\WhitespaceInterpreter\obj\Debug\WhitespaceInterpreter.pdb
