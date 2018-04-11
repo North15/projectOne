@@ -18,9 +18,10 @@ namespace WhitespaceInterpreter
             InitializeComponent();
         }
 
-        public string fileText = "";
+        public string fileText   = "";
         public string newFileText = "";
         public string newBoxText = "";
+        public string userText   = "";
         public string boxText;
 
         public char[] convertFileText;
@@ -49,54 +50,60 @@ namespace WhitespaceInterpreter
 
         private void convertButton_Click(object sender, EventArgs e)
         {
-            if (mainText.Text == fromFile.ToString())
-                mainText.Text = boxText;
-
-            else if (mainText.Text == fromBox.ToString())
-                mainText.Text = fileText;
-
-            Console.WriteLine(fromFile.ToString());
-            Console.WriteLine(fromBox.ToString());
-            Console.WriteLine(boxText);
-            Console.WriteLine(fileText);
-
             int index;
 
-            boxText = mainText.Text;
-
-            convertFileText = fileText.ToCharArray();
-            convertBoxText  = boxText.ToCharArray();
-
-            fromFile = new StringBuilder(newFileText);
-            fromBox  = new StringBuilder(newBoxText);
-
-            if (boxText == fileText)
+            if (mainText.Text == fromFile.ToString())
             {
-                for (index = 0; index < fileText.Length; index++)
-                {
-                    if (convertFileText[index] == ' ')
-                        fromFile.Append('S');
-                    else if (convertFileText[index] == '\t')
-                        fromFile.Append('T');
-                    else if (convertFileText[index] == '\n')
-                        fromFile.Append('L').Append('\n');
-                }
-                mainText.Text = fromFile.ToString();
+                mainText.Text = fileText;
+                mainText.Focus();
+                mainText.SelectionStart = mainText.Text.Length;
+            }                
+            else if (mainText.Text == fromBox.ToString())
+            {
+                mainText.Text = userText;
+                mainText.Focus();
+                mainText.SelectionStart = mainText.Text.Length;
             }
             else
             {
-                for (index = 0; index < boxText.Length; index++)
+                if (mainText.Text == fileText)
                 {
-                    if (convertBoxText[index] == ' ')
-                        fromBox.Append('S');
-                    else if (convertBoxText[index] == '\t')
-                        fromBox.Append('T');
-                    else if (convertBoxText[index] == '\n')
-                        fromBox.Append('L').Append('\n');
-                }
-                mainText.Text = fromBox.ToString();
-            }
+                    boxText = mainText.Text;
 
+                    convertBoxText = boxText.ToCharArray();
+                    fromFile = new StringBuilder(newFileText);
+
+                    for (index = 0; index < fileText.Length; index++)
+                    {
+                        if (convertFileText[index] == ' ')
+                            fromFile.Append('S');
+                        else if (convertFileText[index] == '\t')
+                            fromFile.Append('T');
+                        else if (convertFileText[index] == '\n')
+                            fromFile.Append('L').Append('\n');
+                    }
+                    mainText.Text = fromFile.ToString();
+                }
+                else
+                {
+                    userText = mainText.Text;
+                    boxText = mainText.Text;
+
+                    convertBoxText = boxText.ToCharArray();
+                    fromBox = new StringBuilder(newBoxText);
+
+                    for (index = 0; index < boxText.Length; index++)
+                    {
+                        if (convertBoxText[index] == ' ')
+                            fromBox.Append('S');
+                        else if (convertBoxText[index] == '\t')
+                            fromBox.Append('T');
+                        else if (convertBoxText[index] == '\n')
+                            fromBox.Append('L').Append('\n');
+                    }
+                    mainText.Text = fromBox.ToString();
+                }
+            }
         }
 
         private void saveButton_Click(object sender, EventArgs e)
@@ -119,9 +126,7 @@ namespace WhitespaceInterpreter
             mainText.Clear();
             filePath.Clear();
             fileText    = "";
-            newFileText = "";
             newBoxText  = "";
-            Array.Clear(convertFileText, 0, convertFileText.Length);
             Array.Clear(convertBoxText, 0, convertBoxText.Length);
         }
     }
