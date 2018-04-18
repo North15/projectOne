@@ -35,7 +35,7 @@ namespace WhitespaceInterpreter
 
 
         /***************************************************************
-         * Browses local files for the user to select a whitspace file *
+         * Browses local files for the user to select a whitespace file *
          ***************************************************************/
         private void browseButton_Click(object sender, EventArgs e)
         {
@@ -165,6 +165,7 @@ namespace WhitespaceInterpreter
             fileText    = "";
             newBoxText  = "";
             Array.Clear(convertBoxText, 0, convertBoxText.Length);
+            mainText.Focus();
         }
 
         private void helpButton_Click(object sender, EventArgs e)
